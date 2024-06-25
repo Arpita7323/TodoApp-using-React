@@ -1,0 +1,75 @@
+.todo-app {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(188, 207, 22, 0.77); /* Changed background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-app h1 {
+    text-align: center;
+    color: #2c3e50; /* Changed heading color */
+  }
+  
+  .todo-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #bdc3c7; /* Changed input border color */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .todo-input button {
+    background: #e74c3c; /* Changed button background color */
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .todo-input button i {
+    font-size: 16px;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #24a8a0; /* Changed list item background color */
+    border: 1px solid #a13ea1; /* Changed list item border color */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-list li.completed span {
+    text-decoration: line-through;
+    color: #7f8c8d; /* Changed completed item color */
+  }
+  
+  .todo-list li button {
+    background: none;
+    border: none;
+    color: #e74c3c; /* Changed delete button color */
+    cursor: pointer;
+  }
+  
+  .todo-list li button i {
+    font-size: 16px;
+  }
+  
+  
